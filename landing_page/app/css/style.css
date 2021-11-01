@@ -108,10 +108,10 @@ footer .menu li{
 
 footer .social_icon li a{
   font-size: 2em;
-  color: vas(--white);
+  color: var(--white);
   margin: 0 10px;
   display: inline-block;
-  transition: 0,5s;
+  transition: 0.5s;
 }
 
 footer .social_icon li a:hover{
