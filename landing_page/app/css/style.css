@@ -35,6 +35,7 @@ footer .social_icon{
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  flex-wrap: wrap;
 }
 
 footer .social_icon li{
