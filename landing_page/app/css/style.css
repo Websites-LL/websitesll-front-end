@@ -18,37 +18,6 @@ body{
   background: var(--white);
 }
 
-header{
-  position: relative;
-  width: 100%;
-  background: var(--blue);
-  min-height: 100px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
-header .navbar{
-  text-decoration: none;
-}
-
-header .navlist{
-  text-decoration: none;
-}
-
-header .navlist li{
-  text-decoration: none;
-}
-
-header .navlist li a{
-  text-decoration: none;
-}
-
-main{
-
-}
-
 footer{
   position: relative;
   width: 100%;
@@ -61,5 +30,25 @@ footer{
 }
 
 footer .social_icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
 
+footer .social_icon li{
+  list-style: none;
+}
+
+footer .social_icon li a{
+  font-size: 2em;
+  color: vas(--white);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0,5s;
+}
+
+footer .social_icon li a:hover{
+  transform: translateY(-10px);
 }
