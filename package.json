@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-v5",
+  "name": "front-end_website",
   "version": "1.0.0",
-  "description": "Learning bootstrap v5 with sass",
+  "description": "This is the front-end_website Code!",
   "main": "index.js",
   "scripts": {
    "compile:sass": "sass --watch scss:assets/css"
