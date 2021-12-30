@@ -212,10 +212,14 @@
       <hr style="width: 100px; height: 3px; " class="mx-auto">
       <p class="lead pt-1">what our clients are saying</p>
     </div>
+
+    <!-- START THE CAROUSEL CONTENT  -->
     <div class="row align-items-center">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+          <!-- CAROUSEL ITEM 1 -->
           <div class="carousel-item active">
+            <!-- testimonials card  -->
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
@@ -231,15 +235,19 @@
                 </div>
               </p>
             </div>
+            <!-- client picture  -->
             <div class="testimonials__picture">
               <img src="../src/media/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
             </div>
+            <!-- client name & role  -->
             <div class="testimonials__name">
               <h3>Patrick Muriungi</h3>
               <p class="fw-light">CEO & founder</p>
             </div>
-          </div> 
+          </div>     
+          <!-- CAROUSEL ITEM 2 -->
           <div class="carousel-item">
+            <!-- testimonials card  -->
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
@@ -255,15 +263,19 @@
                 </div>
               </p>
             </div>
+            <!-- client picture  -->
             <div class="testimonials__picture">
               <img src="../src/media/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
             </div>
+            <!-- client name & role  -->
             <div class="testimonials__name">
               <h3>Joy Marete</h3>
               <p class="fw-light">Finance Manager</p>
             </div>
-          </div> 
+          </div>     
+          <!-- CAROUSEL ITEM 3 -->
           <div class="carousel-item">
+            <!-- testimonials card  -->
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
@@ -279,15 +291,19 @@
                 </div>
               </p>
             </div>
+            <!-- client picture  -->
             <div class="testimonials__picture">
               <img src="../src/media/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
             </div>
+            <!-- client name & role  -->
             <div class="testimonials__name">
               <h3>ClaireBelle Zawadi</h3>
               <p class="fw-light">Global brand manager</p>
             </div>
-          </div>
+          </div>     
+          <!-- CAROUSEL ITEM 4 -->
           <div class="carousel-item">
+            <!-- testimonials card  -->
             <div class="testimonials__card">
               <p class="lh-lg">
                 <i class="fas fa-quote-left"></i>
@@ -303,9 +319,11 @@
                 </div>
               </p>
             </div>
+            <!-- client picture  -->
             <div class="testimonials__picture">
               <img src="../src/media/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
             </div>
+            <!-- client name & role  -->
             <div class="testimonials__name">
               <h3>Uhuru Kenyatta</h3>
               <p class="fw-light">C.E.O & Founder</p>
@@ -539,25 +557,27 @@
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
           <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <form target="_blank" action="https://formsubmit.co/eabd3ecedfb093fffe82c17d302435d7" class="row" method="POST">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="First Name" name="name" id="inputFirstName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Last Name" name="lastname" id="inputLastName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" placeholder="email address" name="email" id="inputEmail" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="message" name="message" id="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
+            <input type="hidden" name="_subject" value="YOU GOT A NEW CONTACT!!!">
+            <input type="hidden" name="_next" value="../pages/thank_you.html">
           </form>
         </div>
       </div>
