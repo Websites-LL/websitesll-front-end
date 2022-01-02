@@ -1,19 +1,19 @@
 // @use 'custom';
 
 // IMPORT THE COMPONENTS 
-@use '../scss/components/animations';
-@use '../scss/components/buttons';
-@use '../scss/components/mixins';
-@use '../scss/components/typography';
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
 
 
 // IMPORT THE SECTIONS 
-@use '../scss/sections/navbar';
-@use '..scss/sections/intro-section';
-@use '../scss/sections/campanies';
-@use '../scss/sections/services';
-@use '../scss/sections/testimonials';
-@use '../scss/sections/faq';
-@use '../scss/sections/portfolio';
-@use '../scss/sections/get-started';
-@use '../scss/sections/footer';
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/campanies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';

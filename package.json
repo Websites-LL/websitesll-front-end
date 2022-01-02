@@ -1,20 +1,27 @@
 {
-  "name": "bootstrap-v5",
+  "name": "websitesll-front-end",
   "version": "1.0.0",
-  "description": "Learning bootstrap v5 with sass",
+  "description": "",
   "main": "index.js",
   "scripts": {
    "compile:sass": "sass --watch scss:assets/css"
   },
   "keywords": [
-    "Bootstrap",
-    "bootstrap-v5",
-    "sass",
-    "learn-bootstrap",
-    "learn-sass"
+    "front-end",
+    "front end",
+    "Front-End",
+    "Front Ende",
+    "websitesll",
+    "websites-ll",
+    "websites_ll",
+    "websites ll",
+    "WebsitesLL",
+    "Websites-LL",
+    "Websites_LL",
+    "Websites LL"
   ],
-  "author": "Patrick Muriungi",
-  "license": "ISC",
+  "author": "Leo Fielstette",
+  "license": "Apache License 2.0",
   "devDependencies": {
     "sass": "^1.32.12"
   },
