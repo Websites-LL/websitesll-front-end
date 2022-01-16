@@ -24,7 +24,6 @@
   "author": "Leo Fielstette",
   "license": "Apache License 2.0",
   "devDependencies": {
-    "nodemon": "^2.0.15",
     "sass": "^1.32.12"
   },
   "dependencies": {
